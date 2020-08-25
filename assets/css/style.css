@@ -2440,7 +2440,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: right;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item:before {
   color: var(--secondary-color);
@@ -2464,13 +2464,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a {
   transition: all 0.3s ease-in;
-  color: var(--main-color-one);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area .nav-container {
   background-color: #fff;
@@ -2701,7 +2701,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a {
     transition: all 0.3s ease-in;
-    color: var(--main-color-one);
+    color: #1b1d1f;
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
     color: var(--main-color-one);
@@ -2910,13 +2910,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1b;
   left: 50%;
   transition: all 500ms;
 }
 .info-bar-item.style-01 .content .title {
   font-weight: 600;
   font-size: 14px;
+  color: #1b1c1b;
 }
 .info-bar-item.style-01 .content .details {
   color: var(--paragraph-color);
@@ -2972,7 +2973,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     Top Bar
 ----------------------------*/
 .topbar-area {
-  background-color: var(--main-color-one);
+  background-color: #1b1c1e;
 }
 .topbar-area.style-01 {
   position: relative;
@@ -3023,7 +3024,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .topbar-inner.style-01 .right-contnet div .boxed-btn {
   padding: 15px 30px;
-  background-color: var(--secondary-color);
+  background-color: white;
   display: inline-block;
   color: #111;
   transition: all 0.3s ease-in;
@@ -3033,7 +3034,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-left: 5px;
 }
 .topbar-inner.style-01 .right-contnet div .boxed-btn:hover {
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
   color: #fff;
 }
 
@@ -5424,7 +5425,7 @@ Client Area
   margin-left: 10px;
 }
 .social-link ul li:hover {
-  color: var(--secondary-color);
+  color: #5E5E5E;
 }
 .social-link.style-01 ul li {
   color: var(--paragraph-color);

@@ -2440,7 +2440,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: right;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item:before {
   color: var(--secondary-color);
@@ -2464,13 +2464,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a {
   transition: all 0.3s ease-in;
-  color: var(--main-color-one);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: var(--secondary-color);
+  color: #1b1d1f;
 }
 .navbar-area .nav-container {
   background-color: #fff;
@@ -2701,7 +2701,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a {
     transition: all 0.3s ease-in;
-    color: var(--main-color-one);
+    color: #1b1d1f;
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
     color: var(--main-color-one);
@@ -2910,13 +2910,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
   left: 50%;
   transition: all 500ms;
 }
 .info-bar-item.style-01 .content .title {
   font-weight: 600;
   font-size: 14px;
+  color: #1b1c1e;
 }
 .info-bar-item.style-01 .content .details {
   color: var(--paragraph-color);
@@ -2972,7 +2973,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     Top Bar
 ----------------------------*/
 .topbar-area {
-  background-color: var(--main-color-one);
+  background-color: #1b1c1e;
 }
 .topbar-area.style-01 {
   position: relative;
@@ -3023,7 +3024,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .topbar-inner.style-01 .right-contnet div .boxed-btn {
   padding: 15px 30px;
-  background-color: var(--secondary-color);
+  background-color: white;
   display: inline-block;
   color: #111;
   transition: all 0.3s ease-in;
@@ -3033,7 +3034,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-left: 5px;
 }
 .topbar-inner.style-01 .right-contnet div .boxed-btn:hover {
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
   color: #fff;
 }
 
@@ -3125,7 +3126,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
 }
 .header-area .header-inner-02 {
   background-color: rgba(0, 0, 0, 0.6);
@@ -3251,7 +3252,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   color: rgba(255, 255, 255, 0.8);
 }
 .header-area span {
-  color: var(--secondary-color);
+  color: #1b1c1e;
   font-size: 18px;
   text-transform: uppercase;
   display: block;
@@ -3761,7 +3762,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .request-page-form-wrap.style-01 .section-title {
   padding: 30px 0 20px;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
 }
 .request-page-form-wrap.style-01 .section-title .title {
   color: #fff;
@@ -3898,10 +3899,8 @@ Client Area
   filter: opacity(1) grayscale(0);
 }
 
-.cleaning-company-area.bg-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.cleaning-company-area {
+  background-color: #f0f0f0;
 }
 
 .why-choose-use-area.bg-image {
@@ -4103,7 +4102,7 @@ Client Area
   display: block;
 }
 .btn-wrapper .boxed-btn {
-  background-color: var(--secondary-color);
+  background-color: white;
   color: #111;
   display: inline-block;
   padding: 16px 40px;
@@ -5098,23 +5097,23 @@ Client Area
   transition: all 500ms;
 }
 .provide-single-item.style-03 .icon.style-01 {
-  background-color: var(--main-color-one);
+  background-color: white;
 }
 .provide-single-item.style-03 .icon.style-02 {
-  background-color: #0fd2ef;
+  background-color: white;
 }
 .provide-single-item.style-03 .content .title {
-  color: var(--heading-color);
+  color: white;
 }
 .provide-single-item.style-03 .content p {
   margin: 0;
-  color: var(--paragraph-color);
+  color: #f0f0f0;
 }
 .provide-single-item.style-03 .content ul li {
-  color: var(--heading-color);
+  color: #f0f0f0;
 }
 .provide-single-item.style-03 .content ul li i {
-  color: var(--heading-color);
+  color: #f0f0f0;
 }
 .provide-single-item .icon {
   color: #fff;
@@ -5239,6 +5238,7 @@ Client Area
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom: 14px;
+  color: #1b1c1e;
 }
 .section-title .title span {
   color: var(--main-color-one);
@@ -5424,7 +5424,7 @@ Client Area
   margin-left: 10px;
 }
 .social-link ul li:hover {
-  color: var(--secondary-color);
+  color: #5E5E5E;
 }
 .social-link.style-01 ul li {
   color: var(--paragraph-color);
@@ -5544,7 +5544,7 @@ Client Area
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: var(--main-color-two);
+  background-color: #1b1a1e;
   margin-bottom: 18px;
   margin-top: -30px;
   z-index: 5;
@@ -5558,12 +5558,17 @@ Client Area
   padding: 40px 20px 20px 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.cleaning-single-item:hover .content {
+  background-color: #1b1c1e;
+}
+
 .cleaning-single-item .content .title {
   margin-top: 10px;
   font-size: 16px;
   font-weight: 700;
   line-height: 34px;
-  color: var(--heading-color);
+  color: #1b1a1e;
   margin-bottom: 16px;
   transition: all 500ms;
 }
@@ -6054,4 +6059,13 @@ Client Area
 }
 .choose-single-item .content p {
   margin: auto;
+}
+
+.header-bottom-area {
+  background-color: #1b1c1e;
+}
+
+.flaticon-vacuum,
+.flaticon-dish {
+  color: #1b1c1e;
 }

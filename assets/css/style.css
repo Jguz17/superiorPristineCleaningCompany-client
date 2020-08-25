@@ -2910,14 +2910,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: #1b1c1b;
+  background-color: #1b1c1e;
   left: 50%;
   transition: all 500ms;
 }
 .info-bar-item.style-01 .content .title {
   font-weight: 600;
   font-size: 14px;
-  color: #1b1c1b;
+  color: #1b1c1e;
 }
 .info-bar-item.style-01 .content .details {
   color: var(--paragraph-color);
@@ -3126,7 +3126,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
 }
 .header-area .header-inner-02 {
   background-color: rgba(0, 0, 0, 0.6);
@@ -3252,7 +3252,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   color: rgba(255, 255, 255, 0.8);
 }
 .header-area span {
-  color: var(--secondary-color);
+  color: #1b1c1e;
   font-size: 18px;
   text-transform: uppercase;
   display: block;
@@ -3762,7 +3762,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .request-page-form-wrap.style-01 .section-title {
   padding: 30px 0 20px;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
 }
 .request-page-form-wrap.style-01 .section-title .title {
   color: #fff;
@@ -4104,7 +4104,7 @@ Client Area
   display: block;
 }
 .btn-wrapper .boxed-btn {
-  background-color: var(--secondary-color);
+  background-color: white;
   color: #111;
   display: inline-block;
   padding: 16px 40px;
@@ -5099,23 +5099,23 @@ Client Area
   transition: all 500ms;
 }
 .provide-single-item.style-03 .icon.style-01 {
-  background-color: var(--main-color-one);
+  background-color: white;
 }
 .provide-single-item.style-03 .icon.style-02 {
-  background-color: #0fd2ef;
+  background-color: white;
 }
 .provide-single-item.style-03 .content .title {
-  color: var(--heading-color);
+  color: white;
 }
 .provide-single-item.style-03 .content p {
   margin: 0;
-  color: var(--paragraph-color);
+  color: #f0f0f0;
 }
 .provide-single-item.style-03 .content ul li {
-  color: var(--heading-color);
+  color: #f0f0f0;
 }
 .provide-single-item.style-03 .content ul li i {
-  color: var(--heading-color);
+  color: #f0f0f0;
 }
 .provide-single-item .icon {
   color: #fff;
@@ -6055,4 +6055,13 @@ Client Area
 }
 .choose-single-item .content p {
   margin: auto;
+}
+
+.header-bottom-area {
+  background-color: #1b1c1e;
+}
+
+.flaticon-vacuum,
+.flaticon-dish {
+  color: #1b1c1e;
 }

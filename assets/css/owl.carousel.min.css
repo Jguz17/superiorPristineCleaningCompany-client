@@ -98,6 +98,17 @@
     user-select: none;
 }
 
+.owl-carousel .owl-controls .owl-nav .owl-prev:hover {
+    color: white;
+    border-color: white;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    color: white;
+    border-color: white;
+}
+
+
 .owl-carousel.owl-loaded {
     display: block;
 }

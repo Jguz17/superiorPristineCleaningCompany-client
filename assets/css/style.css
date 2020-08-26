@@ -1396,16 +1396,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-size: cover;
   background-position: center;
 }
-.breadcrumb-area:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(37, 62, 166, 0.7);
-  z-index: -1;
-}
+
 .breadcrumb-area.extra {
   padding-bottom: 138px;
 }
@@ -1425,11 +1416,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: inline-block;
   padding: 5px 20px;
   text-transform: uppercase;
-  background-color: var(--main-color-two);
+  background-color: #1b1c1e;
   font-size: 14px;
   line-height: 20px;
   max-width: 600px;
-  color: rgba(255, 255, 255, 0.9);
+  color: #f0f0f0;
   margin-bottom: 20px;
 }
 .breadcrumb-area .page-list {
@@ -1448,7 +1439,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   padding-left: 0;
 }
 .breadcrumb-area .page-list li:first-child a {
-  color: rgba(255, 255, 255, 0.9);
+  color: #f0f0f0;
 }
 .breadcrumb-area .page-list li:first-child:after {
   display: none;
@@ -1462,7 +1453,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-family: "fontawesome";
 }
 .breadcrumb-area .page-list li a {
-  color: var(--secondary-color);
+  color: #f0f0f0;
   transition: all 0.3s ease-in;
 }
 .breadcrumb-area .page-list li a:hover {
@@ -1974,9 +1965,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .widget.footer-widget .widget-title {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--main-color-one);
+  border-bottom: 1px solid black;
   position: relative;
 }
 .widget.footer-widget .widget-title:after {
@@ -1986,7 +1977,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   left: 0;
   width: 90px;
   height: 1px;
-  background-color: var(--secondary-color);
+  background-color: black;
 }
 
 .widget.footer-widget p,
@@ -1994,13 +1985,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .widget.footer-widget.widget_calendar caption,
 .widget.footer-widget.widget_calendar th,
 .widget.footer-widget.widget_calendar td {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   font-size: 14px;
 }
 
 .widget.footer-widget ul li a,
 .widget.footer-widget ul li {
-  color: rgba(255, 255, 255, 0.7);
+  color: #1b1c1e;
   font-size: 14px;
 }
 
@@ -2107,16 +2098,16 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: absolute;
   left: 0;
   top: 0;
-  color: var(--secondary-color);
+  color: black;
 }
 .contact_info_list li.single-info-item .details {
   margin-left: 30px;
 }
 
 .about_us_widget.style-01 {
-  background-color: var(--main-color-one);
+  /* background-color: black; */
   padding: 40px;
-  border-top: 10px solid var(--main-color-two);
+  border-top: 10px solid white;
   position: absolute;
   top: -90px;
 }
@@ -2130,6 +2121,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   text-align: center;
   color: #898ba7;
   font-size: 14px;
+  background-color: #1b1c1e;
 }
 
 .widget-testimonial .icon {
@@ -3495,6 +3487,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .footer-top {
   border-bottom: 1px solid rgba(114, 108, 148, 0.2);
+  background-color: white;
 }
 .footer-top.style-01 {
   border-bottom: 1px solid rgba(114, 108, 148, 0.2);
@@ -3726,12 +3719,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .testimonial-area {
   position: relative;
   z-index: 0;
+  background-color: #1b1c1e;
 }
-.testimonial-area.bg-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .testimonial-area.bg-image-02 {
   background-size: cover;
   background-position: center;
@@ -3802,12 +3792,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   color: #c1c1c1;
 }
 .request-page-form.style-01 .submit-btn {
-  background-color: var(--secondary-color);
+  background-color: #1b1c1e;
+  color: #f0f0f0;
 }
 .request-page-form.style-01 .submit-btn:hover {
-  background-color: var(--main-color-two);
-  color: #fff;
-  border: 1px solid var(--main-color-two);
+  background-color: transparent;
+  color: #1b1c1e;
+  border: 1px solid #1b1c1e;
 }
 .request-page-form .form-group textarea {
   max-height: 100px;
@@ -3923,7 +3914,7 @@ Client Area
   bottom: 30px;
   width: 50px;
   height: 50px;
-  background-color: var(--main-color-one);
+  background-color: #1b1c1e;
   color: #fff;
   text-align: center;
   line-height: 50px;
@@ -4633,7 +4624,7 @@ Client Area
   text-align: center;
   margin-right: 20px;
   font-size: 45px;
-  color: var(--main-color-two);
+  color: #f0f0f0;
   transition: all 0.3s ease-in;
 }
 .single-contact-item .content {
@@ -4645,11 +4636,12 @@ Client Area
   line-height: 20px;
   margin-bottom: 10px;
   display: block;
-  color: var(--heading-color);
+  color: #f0f0f0;
 }
 .single-contact-item .content .details {
   font-size: 14px;
   font-weight: 500;
+  color: #f0f0f0
 }
 
 .contact-info-list {
@@ -4724,6 +4716,14 @@ Client Area
 }
 .contact-page-form .btn-wrapper .boxed-btn {
   font-size: 14px;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  background-color: transparent;
+}
+
+.contact-page-form .btn-wrapper .boxed-btn:hover {
+  background-color: #f0f0f0;
+  color: #1b1c1e;
 }
 
 /*----------------------------
@@ -4821,7 +4821,7 @@ Client Area
   position: absolute;
   bottom: 0;
   right: 0;
-  border-bottom: 15px solid var(--secondary-color);
+  border-bottom: 15px solid white;
   border-left: 15px solid transparent;
 }
 .single-counterup-01.style-01 .icon {
@@ -5238,7 +5238,7 @@ Client Area
   font-weight: 700;
   font-family: var(--heading-font);
   margin-bottom: 14px;
-  color: #1b1c1e;
+  color: #f0f0f0;
 }
 .section-title .title span {
   color: var(--main-color-one);
@@ -5695,17 +5695,16 @@ Client Area
   background-size: cover;
   background-repeat: no-repeat;
 }
-.single-testimonial-item .thumb::after {
+/* .single-testimonial-item .thumb::after {
   content: "";
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
   width: 65px;
-  background-color: #fff;
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
           clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-}
+} */
 .single-testimonial-item .content {
   padding-left: 30px;
 }
@@ -5719,15 +5718,16 @@ Client Area
   height: 80px;
   line-height: 80px;
   text-align: center;
-  background-color: var(--main-color-two);
+  background-color: #f0f0f0;
   border-radius: 50%;
-  color: #fff;
+  color: #1b1c1e;
 }
 .single-testimonial-item .content .description {
   font-size: 18px;
   line-height: 35px;
   max-width: 400px;
   font-weight: 400;
+  color: #f0f0f0;
 }
 .single-testimonial-item .content .author-details .author-meta {
   display: flex;
@@ -5738,12 +5738,13 @@ Client Area
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 0;
+  color: white;
 }
 .single-testimonial-item .content .author-details .author-meta .ratings {
   margin-right: 5px;
   font-size: 12px;
   line-height: 12px;
-  color: var(--secondary-color);
+  color: #f0f0f0;
 }
 
 .single-testimonial-item-02 {
@@ -6068,4 +6069,8 @@ Client Area
 .flaticon-vacuum,
 .flaticon-dish {
   color: #1b1c1e;
+}
+
+.contact-inner-area {
+  background-color: #1b1c1e;
 }

@@ -453,36 +453,36 @@
                             <h4 class="title">Schedule A Cleaning</h4>
                             <p>Fill the form below</p>
                         </div>
-                        <form class="request-page-form style-01" novalidate="novalidate">
+                        <form id='booking-form' class="request-page-form style-01" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="name" name="name" placeholder="Name" class="form-control" required="" aria-required="true">
+                                        <input id='booking-name' type="name" name="name" placeholder="Name" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" class="form-control" required="" aria-required="true">
+                                        <input id='booking-email' type="email" name="email" placeholder="Email" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone" placeholder="Phone Number" class="form-control" required="" aria-required="true">
+                                        <input id='booking-phone' type="text" name="phone" placeholder="Phone Number" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="address" placeholder="Address" class="form-control" required="" aria-required="true">
+                                        <input id='booking-address' type="text" name="address" placeholder="Address" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="datetime-local" id="datetime" name="birthdaytime" class="form-control" required="" aria-required="true">
+                                        <input id='booking-datetime' type="datetime-local" id="datetime" name="birthdaytime" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea name="your-message" cols="40" rows="10" class="form-control" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
+                                        <textarea id='booking-message' name="your-message" cols="40" rows="10" class="form-control" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -559,6 +559,8 @@
     <script src="assets/js/main.js"></script>
     <!-- message js -->
     <script src="assets/js/forms/message.js"></script>
+    <!-- booking js -->
+    <script src="assets/js/forms/booking.js"></script>
 
 </body>
 

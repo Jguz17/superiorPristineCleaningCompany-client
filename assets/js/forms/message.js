@@ -15,17 +15,17 @@ document.querySelector('#form-message').addEventListener('submit', (e) => {
 
     async function postMessage(url, obj) {
         const response = await fetch(url, {
-            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            method: 'POST',
             headers: {
             'Content-Type': 'application/json'
             },
-            body: JSON.stringify(obj) // body data type must match "Content-Type" header
+            body: JSON.stringify(obj) 
         })
-        return response.json(); // parses JSON response into native JavaScript objects
+        return response.json(); 
     }
 
     postMessage('http://localhost:3000/api/v1/messages', messageObj)
     .then(data => {
-        console.log(data); // JSON data parsed by `data.json()` call
+        console.log(data); 
     });
 })

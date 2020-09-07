@@ -21,7 +21,7 @@ document.querySelector('#booking-form').addEventListener('submit', (e) => {
         return response.json(); 
     }
 
-    postBooking('http://localhost:3000/api/v1/bookings', bookingObj)
+    postBooking('https://spcc-api.herokuapp.com/api/v1/bookings', bookingObj)
     .then(data => {
         console.log(data); 
     });

@@ -24,7 +24,7 @@ document.querySelector('#form-message').addEventListener('submit', (e) => {
         return response.json(); 
     }
 
-    postMessage('http://localhost:3000/api/v1/messages', messageObj)
+    postMessage('https://spcc-api.herokuapp.com/api/v1/messages', messageObj)
     .then(data => {
         console.log(data); 
     });

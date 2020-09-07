@@ -28,4 +28,7 @@ document.querySelector('#form-message').addEventListener('submit', (e) => {
     .then(data => {
         console.log(data); 
     });
+
+    document.querySelector('#form-message').reset();
+
 })

@@ -26,4 +26,6 @@ document.querySelector('#booking-form').addEventListener('submit', (e) => {
         console.log(data); 
     });
 
+    document.querySelector('#booking-form').reset();
+
 })
